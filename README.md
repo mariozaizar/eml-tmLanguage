@@ -15,6 +15,10 @@ Adds Syntax Highlighting for E-Mail files in Sublime Text.
 * `.mail`
 * `.mime`
 
+### Note
+
+Atom user? check this package: https://github.com/mariozaizar/language-eml
+
 ## Development
 
 Contributions are greatly appreciated. Please fork this repository and open a pull request to add snippets, make grammar tweaks, etc. Follow our [Contributing guide][.github/CONTRIBUTING.md].
