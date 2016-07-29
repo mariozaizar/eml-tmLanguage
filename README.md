@@ -2,7 +2,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mariozaizar/eml-tmLanguage/master/LICENSE.md)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/mariozaizar/eml-tmLanguage.svg?style=social)](https://twitter.com/mariozaizar)
 
-# Syntax Highlighting for E-Mail
+# EML language support in Sublime
 
 Adds Syntax Highlighting for E-Mail files in Sublime Text.
 
