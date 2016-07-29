@@ -6,7 +6,7 @@
 
 Adds Syntax Highlighting for E-Mail files in Sublime Text.
 
-![screencast](https://cloud.githubusercontent.com/assets/164819/16854870/b7594628-49c7-11e6-865b-11b8ffce6494.gif)
+![demo](https://cloud.githubusercontent.com/assets/164819/17239976/1f52ad0e-551d-11e6-99ad-20f613325ba2.gif)
 
 ## Supported Filetypes
 
@@ -19,13 +19,33 @@ Adds Syntax Highlighting for E-Mail files in Sublime Text.
 
 Contributions are greatly appreciated. Please fork this repository and open a pull request to add snippets, make grammar tweaks, etc. Follow our [Contributing guide][.github/CONTRIBUTING.md].
 
+https://packagecontrol.io/docs/submitting_a_package
+https://raw.githubusercontent.com/wbond/package_control/master/example-repository.json
+
+```json
+  {
+    "name": "EML (E-Mail)",
+    "labels": ["eml", "email", "mail", "mime", "e-mail", "RFC2045", "RFC2046", "RFC2047", "RFC4288", "RFC4289", "RFC2049"],
+    "details": "https://github.com/mariozaizar/eml-tmLanguage",
+    "issues": "https://github.com/mariozaizar/eml-tmLanguage/issues",
+    "author": "Mario Zaizar",
+    "donate": "https://gratipay.com/mariozaizar/",
+    "releases": [
+      {
+        "sublime_text": "*",
+        "branch": "stable"
+      }
+    ]
+  }
+```
+
 ## Screenshots
 
 *Before*
 ![before](https://cloud.githubusercontent.com/assets/164819/17238885/66b255d6-5514-11e6-8edd-6489a92938fa.png)
 
 *After*
-![after](https://cloud.githubusercontent.com/assets/164819/17238882/63763d60-5514-11e6-977f-0c79e9aeb2f5.png)
+![after](https://cloud.githubusercontent.com/assets/164819/17240008/4f03248e-551d-11e6-864e-302a9323b449.png)
 
 ## References
 
@@ -37,9 +57,10 @@ Based on:
 - https://en.wikipedia.org/wiki/Email#Filename_extensions
 - http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html
 - https://manual.macromates.com/en/language_grammars
+- https://github.com/jgm/highlighting-kate/blob/master/xml/email.xml
 
 Thanks to:
+- https://packagecontrol.io/
 - https://github.com/SublimeText/PackageDev
 - http://www.phpclasses.org/browse/file/14672.html
 - http://stackoverflow.com/questions/475074/regex-to-parse-or-validate-base64-data
-- https://github.com/jgm/highlighting-kate/blob/master/xml/email.xml

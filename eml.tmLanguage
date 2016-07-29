@@ -35,325 +35,325 @@
 			<key>match</key>
 			<string>^(?i)accept-language.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)authentication-results.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)bcc.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)cc.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)charset.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)comments.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)content-class.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)content-description.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)content-disposition.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)content-id.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)content-language.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)content-transfer-encoding.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)content-type.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)date.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)delivered-to.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)delivery-date.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)dkim-signature.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)domainkey-signature.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)envelope-from.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)envelope-to.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)enverlope-to.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)from.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)importance.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)in-reply-to.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)keywors.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)list-help.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)list-id.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)list-post.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)list-unsubscribe.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)message-id.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)mime-version.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)msmail-priority.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)precedence.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)priority.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)received-spf.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)received.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)references.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)reply-to.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)return-path.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)sender.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)sent:.*?</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)subject.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)thread-index.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)thread-topic.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)to:.*?</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^(?i)user-agent.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^.*(?i)resent-bcc.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^.*(?i)resent-cc.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^.*(?i)resent-date.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^.*(?i)resent-from.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^.*(?i)resent-message-id.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^.*(?i)resent-reply-to.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^.*(?i)resent-sender.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^.*(?i)resent-to.*?:</string>
 			<key>name</key>
-			<string>markup.bold.eml</string>
+			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
