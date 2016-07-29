@@ -1,0 +1,13 @@
+language: objective-c
+
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+
+git:
+  depth: 10
+
+branches:
+  only:
+    - stable

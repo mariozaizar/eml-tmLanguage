@@ -1,0 +1,8 @@
+{
+  "version": "0.0.1",
+  "platforms": ["*"],
+  "url": "https://github.com/mariozaizar/eml-tmLanguage",
+  "sublime_text": "*",
+  "dependencies": [],
+  "description": "Syntax Highlighting for E-Mail"
+}
