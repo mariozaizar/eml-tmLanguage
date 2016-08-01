@@ -21,7 +21,7 @@ Atom user? check this package: https://github.com/mariozaizar/language-eml
 
 ## Development
 
-Contributions are greatly appreciated. Please fork this repository and open a pull request to add snippets, make grammar tweaks, etc. Follow our [Contributing guide][.github/CONTRIBUTING.md].
+Contributions are greatly appreciated. Please fork this repository and open a pull request to add snippets, make grammar tweaks, etc. Follow our [Contributing guide](.github/CONTRIBUTING.md).
 
 https://packagecontrol.io/docs/submitting_a_package
 https://raw.githubusercontent.com/wbond/package_control/master/example-repository.json
