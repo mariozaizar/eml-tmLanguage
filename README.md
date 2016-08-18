@@ -23,26 +23,6 @@ Atom user? check this package: https://github.com/mariozaizar/language-eml
 
 Contributions are greatly appreciated. Please fork this repository and open a pull request to add snippets, make grammar tweaks, etc. Follow our [Contributing guide](.github/CONTRIBUTING.md).
 
-https://packagecontrol.io/docs/submitting_a_package
-https://raw.githubusercontent.com/wbond/package_control/master/example-repository.json
-
-```json
-  {
-    "name": "EML (E-Mail)",
-    "labels": ["eml", "email", "mail", "mime", "e-mail", "RFC2045", "RFC2046", "RFC2047", "RFC4288", "RFC4289", "RFC2049"],
-    "details": "https://github.com/mariozaizar/eml-tmLanguage",
-    "issues": "https://github.com/mariozaizar/eml-tmLanguage/issues",
-    "author": "Mario Zaizar",
-    "donate": "https://gratipay.com/mariozaizar/",
-    "releases": [
-      {
-        "sublime_text": "*",
-        "branch": "stable"
-      }
-    ]
-  }
-```
-
 ## Screenshots
 
 *Before*
