@@ -45,6 +45,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>^(?i)auto-submitted.*?:</string>
+			<key>name</key>
+			<string>markup.italic.eml</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>^(?i)bcc.*?:</string>
 			<key>name</key>
 			<string>keyword.control.eml</string>
@@ -108,6 +114,12 @@
 			<string>^(?i)content-type.*?:</string>
 			<key>name</key>
 			<string>keyword.control.eml</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^(?i)errors-to.*?:</string>
+			<key>name</key>
+			<string>markup.italic.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -309,49 +321,49 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^.*(?i)resent-bcc.*?:</string>
+			<string>^(?i)resent-bcc.*?:</string>
 			<key>name</key>
 			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^.*(?i)resent-cc.*?:</string>
+			<string>^(?i)resent-cc.*?:</string>
 			<key>name</key>
 			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^.*(?i)resent-date.*?:</string>
+			<string>^(?i)resent-date.*?:</string>
 			<key>name</key>
 			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^.*(?i)resent-from.*?:</string>
+			<string>^(?i)resent-from.*?:</string>
 			<key>name</key>
 			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^.*(?i)resent-message-id.*?:</string>
+			<string>^(?i)resent-message-id.*?:</string>
 			<key>name</key>
 			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^.*(?i)resent-reply-to.*?:</string>
+			<string>^(?i)resent-reply-to.*?:</string>
 			<key>name</key>
 			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^.*(?i)resent-sender.*?:</string>
+			<string>^(?i)resent-sender.*?:</string>
 			<key>name</key>
 			<string>keyword.control.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^.*(?i)resent-to.*?:</string>
+			<string>^(?i)resent-to.*?:</string>
 			<key>name</key>
 			<string>keyword.control.eml</string>
 		</dict>
@@ -442,18 +454,6 @@
 		<dict>
 			<key>match</key>
 			<string>^(?i)x-forwarded-for.*?:</string>
-			<key>name</key>
-			<string>markup.italic.eml</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>^(?i)x-forwarded-for.*?:</string>
-			<key>name</key>
-			<string>markup.italic.eml</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>^(?i)x-forwarded-to.*?:</string>
 			<key>name</key>
 			<string>markup.italic.eml</string>
 		</dict>
@@ -663,13 +663,19 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^(?i)x-received.*?:</string>
+			<string>^(?i)x-pstn-levels.*?:</string>
 			<key>name</key>
 			<string>markup.italic.eml</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^(?i)x-report-abuse.*?:</string>
+			<string>^(?i)x-pstn-neptune.*?:</string>
+			<key>name</key>
+			<string>markup.italic.eml</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^(?i)x-received.*?:</string>
 			<key>name</key>
 			<string>markup.italic.eml</string>
 		</dict>
@@ -742,6 +748,12 @@
 		<dict>
 			<key>match</key>
 			<string>^(?i)x-spam_report.*?:</string>
+			<key>name</key>
+			<string>markup.italic.eml</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^(?i)x-spam_report:.*?:</string>
 			<key>name</key>
 			<string>markup.italic.eml</string>
 		</dict>
@@ -844,6 +856,18 @@
 		<dict>
 			<key>match</key>
 			<string>^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$</string>
+			<key>name</key>
+			<string>comment.line.eml</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>=09</string>
+			<key>name</key>
+			<string>comment.line.eml</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>=20</string>
 			<key>name</key>
 			<string>comment.line.eml</string>
 		</dict>

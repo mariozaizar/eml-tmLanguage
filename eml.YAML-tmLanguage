@@ -113,21 +113,21 @@ patterns:
   name: 'keyword.control.eml'
 
 # Resent Headers
-- match: '^.*(?i)resent-bcc.*?:'
+- match: '^(?i)resent-bcc.*?:'
   name: 'keyword.control.eml'
-- match: '^.*(?i)resent-cc.*?:'
+- match: '^(?i)resent-cc.*?:'
   name: 'keyword.control.eml'
-- match: '^.*(?i)resent-date.*?:'
+- match: '^(?i)resent-date.*?:'
   name: 'keyword.control.eml'
-- match: '^.*(?i)resent-from.*?:'
+- match: '^(?i)resent-from.*?:'
   name: 'keyword.control.eml'
-- match: '^.*(?i)resent-message-id.*?:'
+- match: '^(?i)resent-message-id.*?:'
   name: 'keyword.control.eml'
-- match: '^.*(?i)resent-reply-to.*?:'
+- match: '^(?i)resent-reply-to.*?:'
   name: 'keyword.control.eml'
-- match: '^.*(?i)resent-sender.*?:'
+- match: '^(?i)resent-sender.*?:'
   name: 'keyword.control.eml'
-- match: '^.*(?i)resent-to.*?:'
+- match: '^(?i)resent-to.*?:'
   name: 'keyword.control.eml'
 
 # X-Headers
@@ -308,4 +308,8 @@ patterns:
 
 # Encoded content
 - match: '^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$'
+  name: 'comment.line.eml'
+- match: '=09'
+  name: 'comment.line.eml'
+- match: '=20'
   name: 'comment.line.eml'
