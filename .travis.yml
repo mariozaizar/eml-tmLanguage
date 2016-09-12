@@ -10,4 +10,4 @@ git:
 
 branches:
   only:
-    - stable
+    - master
