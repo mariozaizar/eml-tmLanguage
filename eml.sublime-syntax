@@ -1,0 +1,332 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: EML
+file_extensions:
+  - eml
+  - email
+  - mail
+  - mime
+scope: source.eml
+
+contexts:
+  main:
+
+    #pull in HTML for the HTML body of the message
+    - match: (?i)<(!DOCTYPE\s*)?html
+      push: Packages/HTML/HTML.sublime-syntax
+      with_prototype:
+        - match: (?=</html>)
+          pop: true
+
+    # Email Addresses
+    - match: '(\S|<)"[a-zA-Z0-9. \+\_\-=]+"\s*&lt;[a-zA-Z0-9.\-]+\@[a-zA-Z0-9.\-]+&gt;(\S|>)'
+      scope: markup.underline.link.eml
+    - match: '(\S|<)[a-zZ-Z0-9.\+\_\-=]*\s*&lt;[a-zA-Z0-9.\-]+\@[a-zA-Z0-9.\-]+&gt;(\S|>)'
+      scope: markup.underline.link.eml
+    - match: '(|<)[a-zA-Z0-9.\+\_\-=]+\@[a-zA-Z0-9.\-]+(>|)'
+      scope: markup.underline.link.eml
+
+    # Timestamps
+    - match: '[a-zA-Z]{3},.*[+-][0-9]{4}\s(.{4}\))'
+      scope: variable.language.eml
+
+    # Received headers unique
+    - match: "^(?i)received:"
+      scope: string.unquoted.eml
+
+    # Headers
+    - match: "^(?i)accept-language.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)authentication-results.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)auto-submitted.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)bcc.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)cc.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)charset.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)comments.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)content-class.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)content-description.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)content-disposition.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)content-id.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)content-language.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)content-transfer-encoding.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)content-type.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)errors-to.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)date.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)delivered-to.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)delivery-date.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)dkim-signature.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)domainkey-signature.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)envelope-from.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)envelope-to.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)enverlope-to.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)from.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)importance.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)in-reply-to.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)keywors.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)list-help.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)list-id.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)list-post.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)list-unsubscribe.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)message-id.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)mime-version.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)msmail-priority.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)precedence.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)priority.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)received-spf.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)references.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)reply-to.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)return-path.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)sender.*?:"
+      scope: keyword.control.eml
+    - match: ^(?i)sent:.*?
+      scope: keyword.control.eml
+    - match: "^(?i)subject.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)thread-index.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)thread-topic.*?:"
+      scope: keyword.control.eml
+    - match: ^(?i)to:.*?
+      scope: keyword.control.eml
+    - match: "^(?i)user-agent.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)ARC-.*?:"
+      scope: keyword.control.eml
+
+    # Resent Headers
+    - match: "^(?i)resent-bcc.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)resent-cc.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)resent-date.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)resent-from.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)resent-message-id.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)resent-reply-to.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)resent-sender.*?:"
+      scope: keyword.control.eml
+    - match: "^(?i)resent-to.*?:"
+      scope: keyword.control.eml
+
+    # X-Headers
+    - match: "^(?i)x-antiabuse.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-auto-response-suppress.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-bulkmail.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-campaign.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-campaignid.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-cmae-analysis.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-cmae-score.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-eopattributedmessage.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-exchange-antispam-report-cfa-test.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-failed-recipients.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-feedback-id.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-filtered.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-forefront-antispam-report.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-forefront-prvs.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-forwarded-for.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-forwarded-to.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-gm-message-state.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-gmail-received.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-google-dkim-signature.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-loop.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-mailer.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-mailguard-id.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-mailguard-uid.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-mailgun-sid.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-mailing-list.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-mandrill-user.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-mc-unique.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-mc-user.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-mcda.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-microsoft-antispam.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-mimecast-impersonation-protect.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-mimeole.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-mozilla-status.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-mozilla-status2.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-ms-exchange-crosstenant-fromentityheader.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-ms-exchange-crosstenant-id.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-ms-exchange-crosstenant-originalarrivaltime.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-ms-exchange-messagesentrepresentingtype.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-ms-exchange-transport-crosstenantheadersstamped.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-ms-exchange-transport-fromentityheader.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-ms-has-attach.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-ms-office365-filtering-correlation-id.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-ms-tnef-correlator.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-original-authentication-results.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-original-to.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-originalarrivaltime.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-originating-email.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-originating-ip.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-originatororg.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-pstn-levels.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-pstn-neptune.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-received.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-report-abuse.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-sender.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-source-args.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-source-dir.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-source.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-spam-checker-version.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-spam-level.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-spam-status.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-spam-zendesk-report.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-spam-zendesk-score.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-spam_bar.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-spam_report.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-spam_report:.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-spam_score.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-spam_score_int.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-tmn.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-virus-scanned.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-yahoo-newman-id.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-yahoo-newman-property.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-ymail-isg.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-ymail-osg.*?:"
+      scope: entity.name.eml
+    - match: "^(?i)x-.*?:"
+      scope: entity.name.eml
+
+    # Specials
+    - match: (?i)7bit
+      scope: constant.language.eml
+    - match: (?i)base64
+      scope: constant.language.eml
+    - match: '(?i)multipart\/.*:'
+      scope: constant.language.eml
+    - match: (?i)image\/.*;
+      scope: constant.language.eml
+    - match: (?i)text\/.*;
+      scope: constant.language.eml
+    - match: (?i)boundary.*
+      scope: constant.language.eml
+    - match: ^--(?!>).*
+      scope: constant.language.eml
+
+    # Quoted Text
+    - match: "^[|>].*"
+      scope: string.quoted.other.eml
+
+    # Encoded content
+    - match: "^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$"
+      scope: comment.line.eml
+    - match: "=09"
+      scope: comment.line.eml
+    - match: "=20"
+      scope: comment.line.eml
+    - match: "=$"
+      scope: comment.line.eml
