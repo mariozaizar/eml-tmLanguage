@@ -17,8 +17,7 @@ Email syntax highlighting for **Text Mate** editor made by [@mariozaizar](https:
 * Email on Text Mate: [eml-tmLanguage](https://github.com/mariozaizar/eml-tmLanguage)
 * Text Mate's official Mail bundle: [mail.tmbundle](https://github.com/textmate/mail.tmbundle)
 
-# :warning:
-## Sublime Text users
+## :warning:  Sublime Text users
 
 📦 For a while, this email grammar was available for Sublime Text users under [EML (E-Mail)](https://packagecontrol.io/packages/EML%20(E-Mail)) package, but it was hard to maintain. As for now, the project has been split into two repositories:
 
