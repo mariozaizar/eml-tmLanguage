@@ -3,19 +3,18 @@
 
 # EML.tmLanguage
 
-Email syntax highlighting for [~*Sublime Text*~](https://github.com/mariozaizar/eml-tmLanguage#sublime-text-users) **Text Mate** editor made by [@mariozaizar](https://about.me/mariozaizar). 
+Email syntax highlighting for [~*Sublime Text*~](https://github.com/mariozaizar/eml-tmLanguage#sublime-text-users) **Text Mate** editor made by [@mariozaizar](https://about.me/mariozaizar).
 
 ## Demos
 
-:mouse: Using [Sublime Text](https://www.sublimetext.com/) *(Build 3211)*
-![sublime](https://raw.githubusercontent.com/mariozaizar/eml-tmLanguage/master/demo/sublime.png)
+:mouse: Using [Text Mate](https://macromates.com/) *(mate 2.13.1 (Dec 28 2019))*
+![textmate](https://raw.githubusercontent.com/mariozaizar/eml-tmLanguage/master/demo/textmate.png)
 
 ## Links
 
 * Email on Sublime Text: [email.sublime-syntax](https://github.com/mariozaizar/email.sublime-syntax)
 * Email on Atom: [language-eml](https://github.com/mariozaizar/language-eml)
 * Email on Text Mate: [eml-tmLanguage](https://github.com/mariozaizar/eml-tmLanguage)
-* Text Mate's official Mail bundle: [mail.tmbundle](https://github.com/textmate/mail.tmbundle)
 
 ## Sublime Text users
 
@@ -25,6 +24,6 @@ For a while, this email grammar was available for Sublime Text users under [EML 
 * [email.sublime-syntax](https://github.com/mariozaizar/email.sublime-syntax) (new repository) uses the new **Sublime Text** syntax.
 
 :warning:  While this code still works on **Sublime Text**, the support of it from this repository is no longer maintained.
-I strongly recommend switching to the new repository (or package) to get the latest updates. 
+I strongly recommend switching to the new repository (or package) to get the latest updates.
 
 I'm trying my best to keep (and probably rename) the [EML (E-Mail)](https://packagecontrol.io/packages/EML%20(E-Mail)) package so everyone can keep getting updates from the new repository. Thanks again for your downloads and support!

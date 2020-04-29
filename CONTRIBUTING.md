@@ -1,14 +1,12 @@
-## Contributing
+# Contributing
 
-Textmate’s Syntax definitions use `.tmLanguage` files.
+* Text Mate's syntax definitions use `email.tmBundle/Syntaxes/email.tmLanguage` file (PLIST).
+* This repo provides a `email.tmBundle/Syntaxes/email.YAML-tmLanguage` file (YAML)
+* You need to convert from YAML to XML; You can use Sublime Text's `PackageDev` package to convert them.
+* Open the `YAML` file with Sublime and then select `Convert to Property List` command.
+* The `PLIST` file will be generated in the same folder.
+* Follow the `INSTALL.md` instructions to install the new `email.tmBundle`.
 
-1. Run `./link_sublime.sh` to link this folder to your Sublime's packages folder.
-2. Edit the `email.YAML-tmLanguage` file.
-3. Convert to `email.tmLanguage` file by selecting "Convert to Property List" command.
-4. The `email.tmLanguage` file will be generated in the same folder.
-5. Sublime Text will reload the changes to the syntax definition.
+## Links
 
-## PackageControl references
-
-* https://packagecontrol.io/docs/submitting_a_package
-* https://packagecontrol.io/docs/renaming_a_package
+* https://macromates.com/manual/en/language_grammars#naming_conventions

@@ -1,5 +1,5 @@
 # [PackageDev] target_format: plist, ext: tmLanguage
-name: Email (TextMate syntax)
+name: Email (TextMate)
 scopeName: source.eml
 fileTypes:
 - eml
@@ -35,17 +35,3 @@ patterns:
 
 - name: constant.character
   match: (?ix)^--[a-zA-Z0-9-=_?:]+(--)?$
-
-- match: ^\s*(?=<)
-  push: Packages/HTML/HTML.sublime-syntax
-  with_prototype:
-  - match: (?<=>)\s*$
-    pop: true
-  - match: '[.@"]'
-    pop: false
-
-- match: <script>
-  push: Packages/JavaScript/JavaScript.sublime-syntax
-  with_prototype:
-  - match: (?=</script>)
-    pop: true

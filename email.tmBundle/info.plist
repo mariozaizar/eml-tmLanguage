@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>contactEmailRot13</key>
+		<string>mariozaizar@gmail.com</string>
+		<key>contactName</key>
+		<string>Mario Zaizar</string>
+		<key>description</key>
+		<string>Email syntax highlighting for Text Mate editor made by @mariozaizar.</string>
+		<key>name</key>
+		<string>Email (TextMate)</string>
+		<key>uuid</key>
+		<string>f1af3e13-5554-4d31-be65-11ab69f42c01</string>
+	</dict>
+</plist>

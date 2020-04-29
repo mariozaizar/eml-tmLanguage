@@ -10,7 +10,7 @@
 		<string>mboxz</string>
 	</array>
 	<key>name</key>
-	<string>Email (TextMate syntax)</string>
+	<string>Email (TextMate)</string>
 	<key>patterns</key>
 	<array>
 		<dict>
