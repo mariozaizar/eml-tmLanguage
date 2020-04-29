@@ -3,7 +3,7 @@
 
 # EML.tmLanguage
 
-Email syntax highlighting for [~*Sublime Text*~](https://github.com/mariozaizar/eml-tmLanguage#warning--sublime-text-users)   **Text Mate** editor made by [@mariozaizar](https://about.me/mariozaizar). 
+Email syntax highlighting for [~*Sublime Text*~](https://github.com/mariozaizar/eml-tmLanguage#sublime-text-users) **Text Mate** editor made by [@mariozaizar](https://about.me/mariozaizar). 
 
 ## Demos
 
@@ -17,14 +17,14 @@ Email syntax highlighting for [~*Sublime Text*~](https://github.com/mariozaizar/
 * Email on Text Mate: [eml-tmLanguage](https://github.com/mariozaizar/eml-tmLanguage)
 * Text Mate's official Mail bundle: [mail.tmbundle](https://github.com/textmate/mail.tmbundle)
 
-## :warning:  Sublime Text users
+## Sublime Text users
 
-📦 For a while, this email grammar was available for Sublime Text users under [EML (E-Mail)](https://packagecontrol.io/packages/EML%20(E-Mail)) package, but it was hard to maintain. As for now, the project has been split into two repositories:
+For a while, this email grammar was available for Sublime Text users under [EML (E-Mail)](https://packagecontrol.io/packages/EML%20(E-Mail)) package, but it was hard to maintain. As for now, the project has been split into two repositories:
 
 * [eml-tmLanguage](https://github.com/mariozaizar/eml-tmLanguage) (this repository) uses the old **Text Mate** syntax.
 * [email.sublime-syntax](https://github.com/mariozaizar/email.sublime-syntax) (new repository) uses the new **Sublime Text** syntax.
 
-:warning: While this code still works on **Sublime Text**, the support of it from this repository is no longer maintained.
+:warning:  While this code still works on **Sublime Text**, the support of it from this repository is no longer maintained.
 I strongly recommend switching to the new repository (or package) to get the latest updates. 
 
-:pray: I'm trying my best to keep (and probably rename) the [EML (E-Mail)](https://packagecontrol.io/packages/EML%20(E-Mail)) package so everyone can keep getting updates from the new repository. Thanks again for your downloads and support!
+I'm trying my best to keep (and probably rename) the [EML (E-Mail)](https://packagecontrol.io/packages/EML%20(E-Mail)) package so everyone can keep getting updates from the new repository. Thanks again for your downloads and support!
