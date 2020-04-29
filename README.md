@@ -1,11 +1,11 @@
 [![GitHub issues](https://img.shields.io/github/issues/mariozaizar/eml-tmLanguage.svg)](https://github.com/mariozaizar/eml-tmLanguage/issues)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mariozaizar/eml-tmLanguage/master/LICENSE.md)
 
-# EML.tmLanguage
+# email.tmBundle
 
-Email syntax highlighting for [~*Sublime Text*~](https://github.com/mariozaizar/eml-tmLanguage#sublime-text-users) **Text Mate** editor made by [@mariozaizar](https://about.me/mariozaizar).
+Email syntax highlighting for [~*Sublime Text*~](https://github.com/mariozaizar/eml-tmLanguage#sublime-text-users) **Text Mate** editor made by [@mariozaizar](https://about.me/mariozaizar). Also known as `eml.tmLanguage`.
 
-## Demos
+## Demo
 
 :mouse: Using [Text Mate](https://macromates.com/) *(mate 2.13.1 (Dec 28 2019))*
 ![textmate](https://raw.githubusercontent.com/mariozaizar/eml-tmLanguage/master/demo/textmate.png)
