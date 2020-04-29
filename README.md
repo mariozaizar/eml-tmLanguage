@@ -3,7 +3,7 @@
 
 # EML.tmLanguage
 
-Email syntax highlighting for **Text Mate** editor made by [@mariozaizar](https://about.me/mariozaizar). 
+Email syntax highlighting for [~*Sublime Text*~](https://github.com/mariozaizar/eml-tmLanguage#warning--sublime-text-users)   **Text Mate** editor made by [@mariozaizar](https://about.me/mariozaizar). 
 
 ## Demos
 
@@ -27,4 +27,4 @@ Email syntax highlighting for **Text Mate** editor made by [@mariozaizar](https:
 :warning: While this code still works on **Sublime Text**, the support of it from this repository is no longer maintained.
 I strongly recommend switching to the new repository (or package) to get the latest updates. 
 
-🤞 I'm trying my best to keep (and probably rename) the [EML (E-Mail)](https://packagecontrol.io/packages/EML%20(E-Mail)) package so everyone can keep getting updates from the new repository. Thanks again for your downloads and support! :pray:
+:pray: I'm trying my best to keep (and probably rename) the [EML (E-Mail)](https://packagecontrol.io/packages/EML%20(E-Mail)) package so everyone can keep getting updates from the new repository. Thanks again for your downloads and support!
